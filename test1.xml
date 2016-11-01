@@ -1,14 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="multimedia_playwav" id="7" x="200" y="4">
+  <block type="multimedia_playwav" id="1" x="200" y="4">
     <field name="WAV"></field>
     <next>
-      <block type="expansion_elevation" id="33" inline="true"></block>
+      <block type="expansion_elevation" id="2" inline="true"></block>
     </next>
-  </block>
-  <block type="sensor_light" id="14" x="384" y="8">
-    <field name="LIGHT">LEFT</field>
-  </block>
-  <block type="math_single" id="21" inline="true" x="382" y="32">
-    <field name="OP">ABS</field>
   </block>
 </xml>
